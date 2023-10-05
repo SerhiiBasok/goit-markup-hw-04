@@ -80,14 +80,21 @@ img {
   padding: 24px 0;
   display: block;
 }
+
 .nav-item:hover {
   color: #404bbf;
 }
 .nav-item:focus {
   color: #404bbf;
 }
-.nav-item {
+.nav-item-active::after {
+  content: "";
+  width: 48px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
 }
+
 /*    <!-- Contacts --> */
 .adress {
   font-style: normal;
@@ -123,6 +130,15 @@ img {
 .solutions {
   background-color: #2e2f42;
   align-items: center;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/background-photo-min.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  block-size: cover;
+  max-width: 1440рх;
 }
 .header-content {
   color: #fff;
@@ -176,12 +192,26 @@ img {
 .advantages {
   padding: 120px 0;
 }
+.advantages-icons {
+  margin: 20px 100px;
+}
+
+.icons-box {
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
 .advantages-list {
   display: flex;
   gap: 24px;
 }
 .advantages-list-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
+  max-width: 264px;
 }
 
 .title-advantages {
@@ -252,6 +282,29 @@ img {
 .personal-name-role {
   padding: 32px 0;
 }
+.soc-icons {
+  fill: #f4f4fd;
+  background-color: #4d5ae5;
+  border-radius: 0%;
+}
+
+.soc-icons-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: circle;
+  padding: 12px, 12px;
+}
+.soc-icons-box {
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
+.soc-icon-elements {
+  width: 40px;
+  height: 40px;
+}
+
 /* <!-- Portfolio --> */
 
 .portfolio {
@@ -325,4 +378,15 @@ img {
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.footer-soc-icons-box {
+  margin: 140px 692px 132px 540px;
+}
+.footer-soc-icons-list {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+.footer-soc-icons {
 }
