@@ -90,8 +90,10 @@ img {
   color: #404bbf;
 }
 .nav-item:focus::after {
+}
+.nav-item .nav-bottom ::before{
   content: "";
-  position: absolute;
+  position: relative;
   left: 0;
   bottom: -1px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
