@@ -458,3 +458,7 @@ img {
   align-items: center;
   justify-content: center;
 }
+.container .footer-container {
+  display: flex;
+  align-items: baseline;
+}
