@@ -443,6 +443,7 @@ img {
 .footer-soc-icons-list {
   display: flex;
   gap: 16px;
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-container-only{
   margin-right: 120px;
@@ -469,11 +470,11 @@ img {
   align-items: center;
   justify-content: center;
 }
-.footer-soc-icons-link:hover {
-  color: ;#31d0aa
+.footer-soc-icon-link:hover {
+  fill: ;#31d0aa
 }
 
-.footer-soc-icons-link:focus{
+.footer-soc-icon-link:focus{
   background-color: #31d0aa;
 }
 .container .footer-container {
@@ -484,7 +485,4 @@ img {
 .footer-soc-icons{
   font: #f4f4fd;
 }
-align-items: baseline;
-justify-content: center;
-width: 40px;
-height: 40px;
+
