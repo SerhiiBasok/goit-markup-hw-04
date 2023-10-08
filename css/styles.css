@@ -447,6 +447,8 @@ img {
 }
 .footer-container-only{
   margin-right: 120px;
+  display: flex;
+  align-items: baseline;
 }
 .footer-p {
   font-style: 16px;
@@ -461,7 +463,7 @@ img {
   width: 40px;
 }
 
-.footer-soc-icons-link {
+.footer-soc-icon-link {
   width: 100%;
   height: 100%;
   background: #4d5ae5;
@@ -477,10 +479,8 @@ img {
 .footer-soc-icon-link:focus{
   background-color: #31d0aa;
 }
-.container .footer-container {
-  display: flex;
-  align-items: baseline;
-}
+
+
 
 .footer-soc-icons{
   font: #f4f4fd;
