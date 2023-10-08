@@ -432,6 +432,10 @@ img {
   margin-right: 120px;
 }
 
+.footer-social-container {
+  display: flex;
+  flex-direction: column;
+}
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -439,10 +443,9 @@ img {
 .footer-soc-icons-list {
   display: flex;
   gap: 16px;
-  align-items: baseline;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
+}
+.footer-container-only{
+  margin-right: 120px;
 }
 .footer-p {
   font-style: 16px;
@@ -451,6 +454,10 @@ img {
   letter-spacing: 0.2em;
   color: #ffffff;
   margin-bottom: 16px;
+}
+.footer-soc-icon-elements {
+  height: 40px;
+  width: 40px;
 }
 
 .footer-soc-icons-link {
@@ -462,7 +469,22 @@ img {
   align-items: center;
   justify-content: center;
 }
+.footer-soc-icons-link:hover {
+  color: ;#31d0aa
+}
+
+.footer-soc-icons-link:focus{
+  background-color: #31d0aa;
+}
 .container .footer-container {
   display: flex;
   align-items: baseline;
 }
+
+.footer-soc-icons{
+  font: #f4f4fd;
+}
+align-items: baseline;
+justify-content: center;
+width: 40px;
+height: 40px;
