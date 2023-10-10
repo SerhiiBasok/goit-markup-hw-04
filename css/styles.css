@@ -426,6 +426,7 @@ img {
   padding: 100px 0;
 }
 .footer.container {
+  margin-right: 120px;
 }
 
 .footer-content {
@@ -436,13 +437,10 @@ img {
   letter-spacing: 0.32px;
   max-width: 264px;
 }
-.footer-container {
-  margin-right: 120px;
-}
+
 .footer-social-container {
   display: flex;
   flex-direction: column;
-  margin-right: 120px;
 }
 .footer-logo {
   display: inline-block;
