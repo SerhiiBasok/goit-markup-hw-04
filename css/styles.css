@@ -436,9 +436,10 @@ img {
   line-height: 1.5;
   letter-spacing: 0.32px;
   max-width: 264px;
-  letter-spacing: 0.02em;
 }
-
+.footer-container {
+  margin-left: 120px;
+}
 .footer-social-container {
   display: flex;
   flex-direction: column;
@@ -450,18 +451,17 @@ img {
 .footer-soc-icons-list {
   display: flex;
   gap: 16px;
+  margin-right: 120px;
 }
 .footer-container-only {
-  margin-right: 120px;
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
 }
 .footer-p {
   font-style: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
 }
@@ -479,13 +479,14 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  fill: #f4f4fd;
 }
-.footer-soc-icon-link :hover {
-  fill: #31d0aa;
+.footer-soc-icon-link:hover {
+  background-color: #31d0aa;
 }
 
-.footer-soc-icon-link: focus {
-  background-color: #31d0aa;
+.footer-soc-icon-link:focus {
+  fill: #31d0aa;
 }
 
 .footer-soc-icons {
