@@ -437,7 +437,7 @@ img {
   max-width: 264px;
 }
 .footer-container {
-  margin-left: 120px;
+  margin-right: 120px;
 }
 .footer-social-container {
   display: flex;
@@ -451,7 +451,6 @@ img {
 .footer-soc-icons-list {
   display: flex;
   gap: 16px;
-  margin-right: 120px;
 }
 .footer-container-only {
   display: flex;
@@ -468,9 +467,9 @@ img {
 .footer-soc-icon-elements {
   height: 40px;
   width: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-link {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-soc-icon-link {
   width: 100%;
