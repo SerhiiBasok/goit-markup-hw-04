@@ -85,9 +85,11 @@ img {
 
 .nav-item:hover {
   color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-item:focus {
   color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-bottom {
@@ -103,6 +105,7 @@ img {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
+  width: 100%;
 }
 
 /*    <!-- Contacts --> */
@@ -120,13 +123,14 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .adress-link:hover {
   color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .adress-link:focus {
   color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .adress-list {
   display: flex;
@@ -147,6 +151,8 @@ img {
   background-size: cover;
   padding: 188px 0;
   max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header-content {
@@ -204,7 +210,6 @@ img {
   padding: 120px 0;
 }
 .advantages-icons {
-  margin: 20px 100px;
 }
 
 .icons-box {
@@ -292,6 +297,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.32px;
   text-align: center;
+  margin-bottom: 8px;
 }
 .personal-name-role {
   padding: 32px 0;
@@ -372,8 +378,6 @@ img {
 .portfolio-list-element {
   width: calc((100% - 48px) / 3);
   margin-top: 0;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .portfolio-elements {
   padding: 32px 16px;
@@ -388,13 +392,12 @@ img {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.portfolio-list-element {
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 .portfolio-list-element :hover .portfolio-slide {
   transform: translateY(0%);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .box-portfolio {
@@ -436,8 +439,6 @@ img {
 }
 
 .footer-social-container {
-  display: flex;
-  flex-direction: column;
 }
 .footer-logo {
   display: inline-block;
@@ -451,7 +452,7 @@ img {
   margin-right: 120px;
 }
 .footer-p {
-  font-style: 16px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
