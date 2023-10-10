@@ -422,7 +422,8 @@ img {
   padding: 100px 0;
 }
 .footer-container {
-  margin-right: 120px;
+  display: flex;
+  align-items: baseline;
 }
 
 .footer-content {
@@ -447,8 +448,6 @@ img {
   gap: 16px;
 }
 .footer-container-only {
-  display: flex;
-  align-items: baseline;
   margin-right: 120px;
 }
 .footer-p {
